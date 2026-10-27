@@ -1,0 +1,17 @@
+name: Bug report
+description: Report a problem with the SENEC.Connect client.
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Include a minimal example and the exception, but remove subscription keys and personal data.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Package version
+    validations:
+      required: true

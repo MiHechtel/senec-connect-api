@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Home Assistant Core integration issues
+    url: https://github.com/home-assistant/core/issues
+    about: Report integration issues to the Home Assistant Core project.
